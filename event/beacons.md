@@ -39,7 +39,7 @@ activities, including:
 ## Enable a Beacon
 
 Salt beacons do not require any changes to the system process that is being
-monitored, everything is configured using Salt.
+monitored; everything is configured using Salt.
 
 Beacons are typically enabled by placing a top-level `beacons` section in the
 minion configuration file:
@@ -181,7 +181,7 @@ echo "some content" > importantfile
 
 Back on your Salt master, you should have picked up an event similar to the following:
 
-``` bash
+```
 salt/beacon/minion1/inotify//home/vagrant/importantfile	{
     "_stamp": "2016-02-03T22:32:09.592113",
     "data": {

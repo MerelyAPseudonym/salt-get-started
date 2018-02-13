@@ -17,6 +17,7 @@ There are many tools that can generate a preview from markdown so you can verify
 ``` bash
 pandoc *.md > out.html
 ```
+TODO is this still accurate?
 
 ## YAML Frontmatter
 

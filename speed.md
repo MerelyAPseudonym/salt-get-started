@@ -18,7 +18,7 @@ provisioning, and more, all built around the SaltStack high-speed
 communication bus.
 
 The Salt master establishes persistent connections to all managed
-system, and uses lightweight protocols to enable real-time communication
+systems, and uses lightweight protocols to enable real-time communication
 across thousands of managed systems.
 
 ## Pluggable Architecture
@@ -26,5 +26,5 @@ across thousands of managed systems.
 SaltStack provides a pluggable architecture that lets you extend nearly
 any part of the system. For example, you can easily add custom execution
 modules, send job results to a new system, and use beacons to monitor
-any part a managed system.
+any part of a managed system.
 

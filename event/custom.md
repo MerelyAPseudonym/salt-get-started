@@ -78,7 +78,7 @@ salt-call event.send /my/test/event '{"data": "my event test"}'
 ~~~
 This results in an event similar to the following:
 
-~~~ bash
+~~~
 /my/test/event	{
     "_stamp": "2016-02-05T18:24:47.001310",
     "cmd": "_minion_event",

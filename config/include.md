@@ -28,15 +28,15 @@ To keep your Salt states modular and reusable, each configuration task
 should be described only once in your Salt state tree
 ([D.R.Y](http://en.wikipedia.org/wiki/Don%27t_repeat_yourself)).
 If you need to use the same configuration task in multiple places,
-you can use in include.
+you can use an include.
 
 Using an include is simple. At the top of your state file (outside of
 any ID), add an include using the following format:
 
 ~~~ yaml
 include:
-  - sls1 
-  - sls2
+  - state_one
+  - state_two
 ~~~
 
 Where `sls1` and `sls2` are the names of the SLS files that you want to

@@ -140,7 +140,7 @@ As you expected, minion1 and minion2 both applied the common state, and minion1
 also applied the nettools state.
 
 Using what you know about the targeting system, you now know how to create
-state and run them on the correct Salt minions using the Top file.
+states and run them on the correct Salt minions using the Top file.
 
 ### What's Next?
 

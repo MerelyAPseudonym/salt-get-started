@@ -114,7 +114,7 @@ On the Salt master, you can quickly view all Salt minion connections and view
 whether the connection is accepted, rejected, or pending.
 
 ``` bash
-sudo salt-key --list-all
+sudo salt-key --list=all
 ```
 
 #### Accept a specific key

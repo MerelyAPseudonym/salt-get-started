@@ -69,13 +69,13 @@ The following diagram shows the format of a Salt state declaration:
 The first line in a Salt state declaration is the ID. Underneath the ID is where you call
 one or more Salt state functions. 
 
--   The line with the ID and the line with each function call end with a colon
-    (:). - Each function call is indented two spaces below the ID. - Parameters are
-    passed as a list to each function. Each line that contains a function argument
-    starts with a two space indentation, then a hyphen, then an additional space.
+-   The line with the ID and the line with each function call end with a colon (:). 
+    -   Each function call is indented two spaces below the ID.
+    -   Parameters are passed as a list to each function. Each line that contains a function argument
+        starts with a two space indentation, then a hyphen, then an additional space.
 -   If an argument takes a single value, the name and value are on the same line
-    separated by a colon and a space. - If an argument takes a list, the list
-    starts on the next line and is indented two spaces.
+    separated by a colon and a space.
+    -   If an argument takes a list, the list starts on the next line and is indented two spaces.
 
 ## Function Examples
 
@@ -204,7 +204,7 @@ Salt uses the state ID for the value of name. In this example, the `name`
 parameter is `https://github.com/saltstack/salt.git`:
 
 ``` yaml
-https://github.com/saltstack/salt-bootstrap:
+https://github.com/saltstack/salt.git:
   git.latest:
     - rev: develop
     - target: /tmp/salt

@@ -53,7 +53,7 @@ command, or restart the `salt-minion` service on one of your minions.
 The following are a few events that are similar to what you might see on your
 Salt master: 
 
-~~~ bash
+~~~
 salt/job/20150923203228234305/new	{
     "_stamp": "2015-09-23T20:32:28.235712",
     "arg": [],
@@ -68,7 +68,7 @@ salt/job/20150923203228234305/new	{
 }
 ~~~
 
-~~~ bash
+~~~
 salt/job/20150923203228234305/ret/minion2	{
     "_stamp": "2015-09-23T20:32:28.291789",
     "cmd": "_return",
@@ -82,7 +82,7 @@ salt/job/20150923203228234305/ret/minion2	{
 }
 ~~~
 
-~~~ bash
+~~~
 salt/auth	{
     "_stamp": "2015-09-23T20:30:02.998305",
     "act": "pend",
@@ -101,7 +101,7 @@ was fired, and the data that contains details about the event.
 
 All salt events are prefixed with `salt/`, with additional levels based on the
 type of event. For example, job events are prefixed with `salt/job/`. Each
-event part is separated using `/` to provide simple namespacing. This is
+event part is separated using `/` to provide simple namespacing. This
 identifier is called the event tag, and often contains specific details such as
 a job ID or minion ID.
 

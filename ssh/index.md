@@ -30,5 +30,5 @@ When running in agentless mode, Salt:
 You can use Salt agentless in conjunction with a master-minion environment, or you can manage all of your
 systems agentless.
 
-This Get Start guide walks you through the essentials of running Salt in agentless mode, and includes a tutorial that shows you how to create a standalone Salt SSH environment.
+This Get Started guide walks you through the essentials of running Salt in agentless mode, and includes a tutorial that shows you how to create a standalone Salt SSH environment.
 
